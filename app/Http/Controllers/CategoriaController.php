@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Redirect;
 use sisVentas\Http\Requests\CategoriaFormRequest;
 use DB;
 
-use Fpdf;
+use Fpdf; 
 
 class CategoriaController extends Controller
 {
