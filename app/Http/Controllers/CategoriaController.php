@@ -68,7 +68,7 @@ class CategoriaController extends Controller
         return Redirect::to('almacen/categoria');
     }
     public function reporte(){
-         //Obtenemos los registros
+         //Obtenemos los registross
          $registros=DB::table('categoria')
             ->where ('condicion','=','1')
             ->orderBy('nombre','asc')
